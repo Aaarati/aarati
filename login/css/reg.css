@@ -1,0 +1,53 @@
+body{
+	background-image: linear-gradient(180deg, black, grey);
+}
+h1{
+	text-align: center;
+	padding: 20px;
+	color: white;
+}
+h2{
+	text-align: center;
+	padding: 20px;
+}
+#maindiv{
+	
+	background: rgba(0,0,0,0.5);
+    width: 690px;
+    margin: 0px 0px 0px 333px;
+    color: antiquewhite;
+    font-size: 17px;
+    padding-left: 15px;
+    border-radius: 5px;
+}
+label{
+	color: white;
+	font-style: italic;
+	font-family: sans-serif;
+	font-size: 18px;
+}
+	width: 400px;
+	height: 30px;
+	border-radius: 4px;
+	border:none;
+	border-color: #ccc;
+}
+#Other_Hobby{
+	border-radius: 3px;
+	border:none;
+	height: 20px;
+}
+#first{
+	padding-left: 135px;
+}
+#submit,#reset{
+	background-color: rgba(0,0,0.5,0.5);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+}
