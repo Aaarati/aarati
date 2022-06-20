@@ -9,10 +9,10 @@
     height: 93vh;
     object-fit: cover; 
 }
-.container{
+/* .container{
 	min-width: 50%;
 	max-height: 280px;
-}
+} */
 
 .about{
 	width:100%;
@@ -31,20 +31,60 @@
     padding-left:0; 
 }
 
-/*// X-Small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap
+.footer img{
+  height: 50px;
+  width: 50px;
+}
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
+/*contact css end */
+.heading-color{
+    background-color:#08746e; 
+    /* background-color: #00B76A; */
+    
+}
 
-// X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
+/*login and register form css*/
+.login-container,.signup-container{
+    min-height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.buttons{
+background-color: #0a8882; 
+border: none;
+padding: 8px 16px;
+border-radius: 8px;
+font-weight: 500;
+color: white;
+transition: 1s;
+}
 
-// XX-Large devices (larger desktops, 1400px and up)
-@media (min-width: 1400px) { ... }
+.buttons:hover{
+    cursor: pointer;
+    background-color:#033f3c;
+}
+
+
+
+@media screen and (max-width: 900px){
+  section.main_heading > .container >.row>.col-md-6 >.cards{
+    margin-bottom: 20px;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  section.main_heading > .container >.row>.col-md-6 >.cards > .col-sm-4 > img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+
+
+
+
+
